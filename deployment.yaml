@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: aks-demo-app
-          image: ACR_IMAGE_PLACEHOLDER
+          image: acrdemo1.azurecr.io/aks-demo-app:v1
           ports:
             - containerPort: 80
